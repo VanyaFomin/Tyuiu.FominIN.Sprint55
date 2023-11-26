@@ -2,8 +2,8 @@
 using System;
 
 using System.IO;
-using Tyuiu.FominIN.Sprint5.Task6.V10.Lib;
-namespace Tyuiu.FominIN.Sprint5.Task6.V10.Test
+using Tyuiu.FominIN.Sprint5.Task7.V19.Lib;
+namespace Tyuiu.FominIN.Sprint5.Task7.V19.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -11,10 +11,11 @@ namespace Tyuiu.FominIN.Sprint5.Task6.V10.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask6V10.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask7V19.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
-            Assert.AreEqual(false, fileExists);
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Tyuiu.FominIN.Sprint5.Task6.V10.Lib
                     }
                 }
             }
-            catch (IOException e)
+            catch (IOException)
             {
                 throw;
             }
